@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ben Senin's personal portfolio as a BSIT student and aspiring developer.">
+    <title>Ben Senin | Developer Portfolio</title>
+    <!-- Load the separate stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="home">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Ben Senin home">ben<span>.</span></a>
+
+          
+            <button class="menu-toggle" id="menu-toggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section class="hero section container" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> BSIT STUDENT · ASPIRING DEVELOPER</p>
+                <h1 id="hero-title">Hi, I'm Ben.<br><span>I build things for the web.</span></h1>
+                <p class="hero-description">
+                    I'm a Bachelor of Science in Information Technology student at
+                    Bulacan State University who enjoys programming, exploring new
+                    technologies, and turning ideas into useful digital experiences.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero-meta">
+                    <span><strong>01</strong> Curious by nature</span>
+                    <span><strong>02</strong> Always learning</span>
+                </div>
+            </div>
+
+          
+            <div class="hero-visual" aria-label="Profile illustration">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="profile-card">
+                    <div class="profile-top"><span></span><span></span><span></span><small>ben_senin.dev</small></div>
+                    <img class="profile-photo" src="./assets/ben-profile.png" alt="Portrait of Ben Senin">
+                    <p class="profile-name">Ben Senin</p>
+                    <p class="profile-role">Student Developer</p>
+                    <div class="profile-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <div class="code-line"><i></i><i></i><i></i></div>
+                    <div class="code-line short"><i></i><i></i></div>
+                </div>
+                <div class="floating-chip chip-code"><span aria-hidden="true">&lt;/&gt;</span> Code</div>
+                <div class="floating-chip chip-idea"><span aria-hidden="true">✦</span> Create</div>
+            </div>
+        </section>
+
+      
+        <section class="section about-section" id="about" aria-labelledby="about-title">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2 id="about-title">Learning today.<br><span>Building for tomorrow.</span></h2>
+                </div>
+                <div class="about-content">
+                    <p>
+                        I'm a third-year BSIT student at Bulacan State University with
+                        an interest in web and application development. I like learning
+                        by building projects, testing ideas, and improving my work one
+                        step at a time.
+                    </p>
+                    <p>
+                        My current goal is to strengthen my development skills, create
+                        projects that solve real problems, and grow into a developer
+                        who builds simple, effective, and user-friendly solutions.
+                    </p>
+                    <div class="skill-list" aria-label="Areas I am learning">
+                        <span>Web Development</span><span>Java</span><span>SQL</span>
+                        <span>UI/UX</span><span>Flutter</span><span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section container" id="projects" aria-labelledby="projects-title">
+            <div class="section-heading">
+                <div><p class="eyebrow">SELECTED WORK</p><h2 id="projects-title">Projects I've built<span>.</span></h2></div>
+                <p class="section-note">Java projects that helped me practice programming logic and problem solving.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">01 / JAVA</span><span class="project-symbol" aria-hidden="true">▤</span></div>
+                    <img class="project-image" src="./assets/projects/pos.png" alt="Screenshot of the Simple Point-of-Sale program and menu">
+                    <h3>A Simple Point-of-Sale (POS)</h3>
+                    <p>A command-line ordering system where customers can choose drinks and pastries, view prices, adjust quantities, and calculate a transaction total.</p>
+                    <div class="project-tags"><span>Java</span><span>Console App</span><span>Transactions</span></div>
+                    <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">02 / JAVA</span><span class="project-symbol" aria-hidden="true">＋</span></div>
+                    <img class="project-image" src="./assets/projects/calculator.png" alt="Screenshot of the Basic Calculator program in the console">
+                    <h3>Basic Calculator</h3>
+                    <p>A console-based calculator for addition, subtraction, multiplication, and division, with prompts to continue or exit after a calculation.</p>
+                    <div class="project-tags"><span>Java</span><span>Conditionals</span><span>Loops</span></div>
+                    <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">03 / JAVA</span><span class="project-symbol" aria-hidden="true">✓</span></div>
+                    <img class="project-image" src="./assets/projects/todo.png" alt="Screenshot of the Simple To-Do List command-line program">
+                    <h3>Simple To-Do List</h3>
+                    <p>A command-line task manager that lets users add tasks, view the list, mark tasks as completed, and remove tasks.</p>
+                    <div class="project-tags"><span>Java</span><span>ArrayList</span><span>OOP</span></div>
+                    <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-topline"><span class="project-number">04 / JAVA</span><span class="project-symbol" aria-hidden="true">▦</span></div>
+                    <img class="project-image" src="./assets/projects/grades.png" alt="Screenshot of the Student Grade Management System console program">
+                    <h3>Student Grade Management System</h3>
+                    <p>A Java console application for adding, viewing, updating, and removing student records, calculating grades, and checking pass/fail status.</p>
+                    <div class="project-tags"><span>Java</span><span>Student Records</span><span>Grade Calculation</span></div>
+                    <a class="project-link" href="#contact">Discuss this project <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+            <p class="project-disclaimer">Each image is cropped to focus on the relevant project screenshot.</p>
+        </section>
+
+      
+        <footer class="contact-section" id="contact">
+            <div class="container">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <div class="contact-main">
+                    <h2>Let's make<br><span>something useful.</span></h2>
+                    <div class="contact-details">
+                        <p>I'm always open to learning, collaborating, and discussing ideas.</p>
+                        
+                        <a href="mailto:benjsus11@gmail.com" class="contact-link">benjsus11@gmail.com <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/benjsus11-maker/ben-portfolio" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub profile <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <a class="brand" href="#home">ben<span>.</span></a>
+                    <p>Designed and built by Ben Senin · <span id="current-year">2026</span></p>
+                    <a href="#home" class="back-to-top">Back to top ↑</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
